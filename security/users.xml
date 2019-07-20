@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="groupe_secretaire" model="res.groups">
+            <field name="name">Secretaire</field>
+        </record>
+
+        <record id="groupe_gerant" model="res.groups">
+            <field name="name">Gerant</field>
+        </record>
+
+    </data>
+</odoo>
