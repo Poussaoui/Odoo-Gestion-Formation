@@ -10,7 +10,7 @@ Partie 1 :
  	• Dépendances : {project}.
  	• Description : Ce module est destiné pour gérer un centre de formation.
 Réponses: Il faut modifier le fichier __manifest__.py qui contient les paramètres de base
-# -*- coding: utf-8 -*-
+
 {
     'name': "Gestion des formations",
 
@@ -33,7 +33,7 @@ Réponses: Il faut modifier le fichier __manifest__.py qui contient les paramèt
 
 Repense : Tout d’abord on import les classes dans models/__init__.py et on les créé :
 Fichier models/__init__.py :
-# -*- coding: utf-8 -*-
+
 from . import candidat
 from . import formateur
 from . import formation
@@ -42,7 +42,7 @@ from . import session
 
 
 Fichier models/candidat .py :
- # -*- coding: utf-8 -*-
+
 from odoo import models, fields, api
 class Candidat(models.Model):
     _name = 'candidat.candidat'
